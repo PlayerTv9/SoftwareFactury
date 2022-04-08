@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NeonBrowser.exe" version="1.1.0.0" publicKeyToken="460728293bc4b793" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="World.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NeonBrowser" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NeonBrowser.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opzioni manifesto Controllo dell'account utente
+          Se si vuole modificare il livello di Controllo dell'account utente di Windows, sostituire il
+          nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se si vuole usare Virtualizzazione file system e registro di sistema per la 
+         compatibilità con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NeonBrowser.exe" size="225760">
+      <assemblyIdentity name="NeonBrowser" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5Pi7JOP7l4IfoDFeH79pfvR43ca0FlIzybRQAExVuHg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="NeonBrowser.exe.config" size="913">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nJc3rQzuILvPdSaqSahQKMhk8cGOkm2plgP4hiZyeQw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="World.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qvVISuud82OmRmX7zTMwL0p1keMi8NZZJgl/QsmmsPs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-ABU1MAJH\tomma" issuerKeyHash="5d281bf1ae302fdeaaf09f85859383bb3092945c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JeXbH2tuNUdgjmVVIIO2eu+/RT7ikVO7x4TGFBTjrKI=</DigestValue></Reference></SignedInfo><SignatureValue>Ec2G9E1kfU0SKtCnkG7xSl9th5/OtpOEHCE4hvKuzMm8GV1xSjsYHbtAQQzFJOoAJyEno19s8QU6IGi+8NYc9is2m0oxeGWlSGwDTEOpk3Tlxy4AHosxffbNuaDNwRtHs9kGrebPcl/eshAEPWp/HiX6AR/Dh+GYf+MpXIagMUQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ngbhJNgSdwZ3CgT9EoLBapIoe3ZY7rgRebyNVkrevkr2DMTDzAM0qWZCc16AJjzurrvZNFScILaSB7kX7Dp3iiYSM/O0ZzyTg7Zb2RPxiCoNixOP+q/rQipDDgZ451H1ZNFNj8q3Wei2YRYZ0fyAwXimFHNyzR9EMD//4hQEpJE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a2ace31414c684c7bb5391e23e45bfef7ab6832055658e6047356e6b1fdbe525" Description="" Url=""><as:assemblyIdentity name="NeonBrowser.exe" version="1.1.0.0" publicKeyToken="460728293bc4b793" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-ABU1MAJH\tomma</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>p36C2DN8XG47eSyC3QLLJD434p0/NC/n6OOMZ2ASqzE=</DigestValue></Reference></SignedInfo><SignatureValue>meOTtObz7FT1XOq/vcACQ0efLbBx9laK316CinaDY1WJiPt9O6C/ppRZuVIi8Wi7hlvAcWZXLFa/6p9NS6abRKioR/9FWjrJH82dEv+s9XlZeLpuWXrKdvuAEWfQX0+yWEYtbBuncNiEXZonVuC8Di4jAtx42fKIEV2dNvQDZTY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ngbhJNgSdwZ3CgT9EoLBapIoe3ZY7rgRebyNVkrevkr2DMTDzAM0qWZCc16AJjzurrvZNFScILaSB7kX7Dp3iiYSM/O0ZzyTg7Zb2RPxiCoNixOP+q/rQipDDgZ451H1ZNFNj8q3Wei2YRYZ0fyAwXimFHNyzR9EMD//4hQEpJE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZ9eGKx68fZNGgjZUyXuvbjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBBAEIAVQAxAE0AQQBKAEgAXAB0AG8AbQBtAGEwHhcNMjIwMTA1MTQzNTA0WhcNMjMwMTA1MjAzNTA0WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBBAEIAVQAxAE0AQQBKAEgAXAB0AG8AbQBtAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ4G4STYEncGdwoE/RKCwWqSKHt2WO64EXm8jVZK3r5K9gzEw8wDNKlmQnNegCY87q672TRUnCC2kge5F+w6d4omEjPztGc8k4O2W9kT8YgqDYsTj/qv60IqQw4GeOdR9WTRTY/Kt1notmEWGdH8gMF4phRzcs0fRDA//+IUBKSRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAO5j5ZTJp7lifeDzFc15jFnVAABgnXQ/O7ePcdQZMIgdaQJYd+D8thozbGD2JACb5EyhC1cFWsbx6MPeMyneLvw8xuFCc9UovmG9D2/Qof1D+eEsTq7fmNJhxnqtR4rtOi2rPMOwdbKi3aZ3lWJFdxB6GqP8DIPDdywR17N/5t5U=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

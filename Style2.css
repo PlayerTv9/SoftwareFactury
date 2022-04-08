@@ -1,0 +1,14 @@
+body {
+  background-color: orange;
+
+}
+
+
+.flex {max-width: 100%}
+
+
+.ciao{
+  color: red;
+  font-family: Stencil Std, fantasy;
+  text-align: center;
+}

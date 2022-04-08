@@ -1,0 +1,13 @@
+body {
+  background-color: chocolate;
+
+}
+
+.flex {max-width: 100%}
+
+.ciao{
+  color: white;
+  font-family: Andale Mono, monospace;
+  text-align: left;
+  max-width: 100%;
+}
